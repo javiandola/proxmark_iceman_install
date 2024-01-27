@@ -66,8 +66,8 @@ make install
 
 # Respuesta al usuario
 echo -e "${amarillo}Hola${fin} ${verde}$USUARIO${fin}"
-echo -e "${amarillo}Ejecuta${fin} ${verde}./pm3-flash-bootrom${fin}   ${amarillo}Este comando se utiliza para actualizar el cargador de arranque${fin}"
-echo -e "${amarillo}Ejecuta${fin} ${verde}./pm3-flash-fullimage${fin} ${amarillo}Este comando se utiliza para actualizar el firmware${fin}"
-echo -e "${amarillo}Ejecuta${fin} ${verde}./pm3${fin}                 ${amarillo}Este comando se utiliza para iniciar el cliente Proxmark3${fin}"
+echo -e "${amarillo}Ejecuta${fin} ${verde}pm3-flash-bootrom${fin}   ${amarillo}Este comando se utiliza para actualizar el cargador de arranque${fin}"
+echo -e "${amarillo}Ejecuta${fin} ${verde}pm3-flash-fullimage${fin} ${amarillo}Este comando se utiliza para actualizar el firmware${fin}"
+echo -e "${amarillo}Ejecuta${fin} ${verde}pm3 -p /dev/ttyACM0${fin}                 ${amarillo}Este comando se utiliza para iniciar el cliente Proxmark3${fin}"
 
 exit 0
